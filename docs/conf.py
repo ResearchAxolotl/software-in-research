@@ -6,9 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ResearchAxolotl'
-copyright = '2026, ResearchAxolotl'
-author = 'ResearchAxolotl'
+project = 'Code Club'
+author = 'H. le Roux and D.M. Hollman'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
@@ -25,3 +24,11 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = "pydata_sphinx_theme"
 html_static_path = ['_static']
+html_theme_options = {
+    "github_url": "https://github.com/ResearchAxolotl/software-in-research",
+}
+html_sidebars = {
+    # Add pages here to remove their left sidebar.
+    "get-started": [],
+    "open-topics": [],
+}

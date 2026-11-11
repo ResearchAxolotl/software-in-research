@@ -50,7 +50,7 @@ body:
     id: steps
     attributes:
       label: Steps to reproduce
-      validations:
+    validations:
       required: false
 
   - type: textarea

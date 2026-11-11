@@ -1,0 +1,57 @@
+name: Suggest a topic
+description: Propose a new lesson or a section for an existing one
+title: "[Topic] "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a lesson? Tell us what you'd like to learn or research and present.
+
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      description: A short name for the lesson
+      placeholder: Working with dataclasses
+    validations:
+      required: false
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of request is this?
+      options:
+        - Brand new topic
+        - Add a section to an existing topic
+        - Follow-up to an existing lesson
+        - Exercise or practice problems
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: outline
+    attributes:
+      label: What should it cover?
+      description: Rough outline, key concepts, or example ideas
+      placeholder: |
+        - What a dataclass is
+        - Defaults and field()
+        - Comparison with NamedTuple
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Useful references
+      description: Links, Docs, PEPs, articles, or similar lessons elsewhere
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and lessons to make sure this isn't already covered
+          required: true

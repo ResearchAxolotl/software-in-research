@@ -1,0 +1,68 @@
+name: Bug report
+description: Something in the repo is broken (example code, build, site, or links)
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. The more detail you give, the faster we can fix it.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is broken?
+      options:
+        - Example code doesn't run
+        - Output differs from what the lesson shows
+        - Site build or deploy
+        - Broken link or image
+        - Navigation or layout
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: location
+    attributes:
+      label: Page or file
+      description: Link to relevant the page, or the file path in the repo
+      placeholder: docs/conf.py
+    validations:
+      required: false
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Paste the error or describe the output
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      validations:
+      required: false
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: Optional, but welcome. Feel free to open a PR instead!
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate
+          required: true

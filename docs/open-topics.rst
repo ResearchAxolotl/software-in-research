@@ -37,7 +37,7 @@ This topic should guide researchers how they can get involved and collaborate.
 A code club on this topic may include:
 
 - A showcase of a select issue and merged pull request from a well known package in the field.
-  e.g. astropy, sunpy, plasmapy
+  e.g. `astropy`_, `sunpy`_, `plasmapy`_.
 
 
 .. _code-review:

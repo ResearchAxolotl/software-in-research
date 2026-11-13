@@ -5,8 +5,23 @@ The below are all topics yet to be covered in code club. If you want to suggest 
 
 .. _`issue`: https://github.com/ResearchAxolotl/software-in-research/issues/new/choose
 
-Topic: Contributing code to existing codebases
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. grid:: 3
+    :gutter: 1
+
+    .. grid-item-card::  Contributing code to existing codebases
+        :link: contributing-code
+        :link-type: ref
+        :link-new-tab:
+
+    .. grid-item-card::  Code Review
+        :link: code-review
+        :link-type: ref
+        :link-new-tab:
+
+.. _contributing-code:
+
+Contributing code to existing codebases
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Contributing to large existing projects or packages can be daunting.
 Particularly so if they are open source, and any development is public for others to see.
@@ -25,9 +40,10 @@ A code club on this topic may include:
   e.g. astropy, sunpy, plasmapy
 
 
+.. _code-review:
 
-Topic: Code Review
-^^^^^^^^^^^^^^^^^^
+Code Review
+^^^^^^^^^^^
 
 Code review is an important process in your own code, when working collaboratively, and when using new code for the first time.
 Reviewing code is a skill which will improve with practice.

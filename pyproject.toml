@@ -7,4 +7,5 @@ requires-python = ">=3.14"
 dependencies = [
     "pydata-sphinx-theme>=0.24.0",
     "sphinx>=9.2.0",
+    "sphinx-design>=0.8.0",
 ]

@@ -61,4 +61,8 @@ A code club on this topic may include:
 
 - Asking members to bring some code they have written, and getting them to swap and review each other's work.
 - A showcase of the reviews on a merged pull request from a well known package in the field.
-  e.g. astropy, sunpy, plasmapy
+  e.g. `astropy`_, `sunpy`_, `plasmapy`_.
+  
+.. _`astropy`: https://github.com/astropy/astropy
+.. _`sunpy`: https://github.com/sunpy/sunpy
+.. _`plasmapy`: https://github.com/PlasmaPy/PlasmaPy
